@@ -43,8 +43,8 @@ public class Employee {
     }
 
 
-    public BigDecimal toPay() {
-        return salary.add(setBonus(bonus));
+    public BigDecimal ToPay() {
+        return salaryadd(setBonus(bonus));
 
     }
 
