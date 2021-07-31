@@ -43,7 +43,7 @@ public class Employee {
     }
 
 
-    public BigDecimal ToPay() {
+    public BigDecimal toPay() {
         return salaryadd(setBonus(bonus));
 
     }
